@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Point of Sale System (v5.0) :: Create New Product</title>
+    <link rel="stylesheet" href="../css/default.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Point of Sale System (v5.0) :: Create New Product</h1>
+        <form class="loginbox">
+
+            Username: <input type="text" name="name" />
+            Password: <input type="password" name="password" />
+
+
+            <input type="button" value="Clear"><input type="button" value="Login">
+
+        </form>
+    </header>
+
+    <nav class="mainmenu">
+        <h3>Main Menu</h3>
+        <br>
+
+        <p> <a href="../index.html"> Home </a></p>
+
+        <a href="">
+            <p>Logout</p>
+        </a>
+        <br>
+
+        <h4 class="menuHeader1">Cashier Operation</h4>
+        <div class="secondaryMenu">
+
+            <ul>
+                <li><a href="../cashierOperation/checkout.html">Checkout</a></li>
+                <li><a href="../cashierOperation/voidRefund.html">Void/Refund</a></li>
+                <li><a href="../cashierOperation/viewMySaleTransactions.html">View My Sale Transactions</a></li>
+                <br>
+            </ul>
+        </div>
+
+        <h4 class="menuHeader1">System Administration</h4>
+        <h6 class="menuHeader2">Staff</h6>
+        <div class="secondaryMenu">
+            <ul>
+                <li><a href="createNewStaff.html">Create New Staff</a></li>
+                <li><a href="viewStaffDetails.html">View Staff Details</a></li>
+                <li><a href="viewAllStaffs.html">View All Staffs</a></li>
+            </ul>
+        </div>
+        <h6 class="menuHeader2">Product</h6>
+        <div class="secondaryMenu">
+            <ul>
+                <li><a href="createNewProduct.html">Create New Product</a></li>
+                <li><a href="viewProductDetails.html">View Product Details</a></li>
+                <li><a href="viewAllProducts.html">View All Products</a></li>
+                <br>
+                <br>
+                <br>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="content">
+        <h3>Product Catalogue</h3>
+        <table style="width:100%">
+            <col width=30%>
+            <col width=70%>
+            <tr>
+                <td class="rowheader">SKU Code:</td>
+                <td> <input type="text" name="skucode" placeholder="PROD999" /></td>
+            </tr>
+            <tr>
+                <td class="rowheader">Name:</td>
+                <td><input type="text" name="name" placeholder="Product 1" /></td>
+            </tr>
+            <tr>
+                <td class="rowheader">Description:</td>
+                <td><input type="text" name="desc" placeholder="Product 2" /></td>
+            </tr>
+            <tr>
+                <td class="rowheader">Quantity on Hand:</td>
+                <td><input type="number" name="qtyOnHand" placeholder="99" /></td>
+            </tr>
+            <tr>
+                <td class="rowheader">Reorder Quantity:</td>
+                <td><input type="number" name="qtyOnHand" placeholder="99" /></td>
+            </tr>
+            <tr>
+                <td class="rowheader">Unit Price: $</td>
+                <td><input type="number" name="qtyOnHand" placeholder="10.00" /></td>
+            </tr>
+            <tr>
+                <td class="rowheader">Category</td>
+                <td>
+                    <select name="category" value="-- Select a Category --">
+                        <option value="">-- Select a Category--</option>
+                        <option value="categoryA">category A</option>
+                        <option value="categoryB">category B</option>
+                        <option value="categoryC">category C</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="rowheader">Rating:</td>
+                <td> <input type="range" min="1" max="100" value="50" class="slider"></td>
+            </tr>
+            <tr>
+                <td class="rowheader">Record Date:</td>
+                <td><input type="date" /></td>
+            </tr>
+            <tr>
+                <td style="text-align:center" colspan=2 class="rowheader"><input type="button" value="Create"></td>
+
+            </tr>
+        </table>
+    </div>
+
+    <div class="
+                        sidebar">
+        <h3>Advertisement</h3>
+        <img src="../images/300x300.png" class="advertisement" style="width:60%">
+        <p>Advertisement 1</p>
+        <img src="../images/300x300.png" class="advertisement" style="width:60%">
+        <p>Advertisement 2</p>
+        <img src="../images/300x300.png" class="advertisement" style="width:60%">
+        <p>Advertisement 3</p>
+    </div>
+</body>
+
+<footer class="footer">
+    <h6>&copy; 2020 IS3106. All rights reserved.</h6>
+</footer>
+
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Point of Sale System (v5.0) :: View All Products</title>
+    <link rel="stylesheet" href="../css/default.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Point of Sale System (v5.0) :: View All Products</h1>
+        <form class="loginbox">
+
+            Username: <input type="text" name="name" />
+            Password: <input type="password" name="password" />
+
+
+            <input type="button" value="Clear"><input type="button" value="Login">
+
+        </form>
+    </header>
+
+    <nav class="mainmenu">
+        <h3>Main Menu</h3>
+        <br>
+
+        <p> <a href="../index.html"> Home </a></p>
+
+        <a href="">
+            <p>Logout</p>
+        </a>
+        <br>
+
+        <h4 class="menuHeader1">Cashier Operation</h4>
+        <div class="secondaryMenu">
+
+            <ul>
+                <li><a href="../cashierOperation/checkout.html">Checkout</a></li>
+                <li><a href="../cashierOperation/voidRefund.html">Void/Refund</a></li>
+                <li><a href="../cashierOperation/viewMySaleTransactions.html">View My Sale Transactions</a></li>
+                <br>
+            </ul>
+        </div>
+
+        <h4 class="menuHeader1">System Administration</h4>
+        <h6 class="menuHeader2">Staff</h6>
+        <div class="secondaryMenu">
+            <ul>
+                <li><a href="createNewStaff.html">Create New Staff</a></li>
+                <li><a href="viewStaffDetails.html">View Staff Details</a></li>
+                <li><a href="viewAllStaffs.html">View All Staffs</a></li>
+            </ul>
+        </div>
+        <h6 class="menuHeader2">Product</h6>
+        <div class="secondaryMenu">
+            <ul>
+                <li><a href="createNewProduct.html">Create New Product</a></li>
+                <li><a href="viewProductDetails.html">View Product Details</a></li>
+                <li><a href="viewAllProducts.html">View All Products</a></li>
+                <br>
+                <br>
+                <br>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="content">
+        <h3>Product Catalogue</h3>
+        <table>
+            <tr>
+                <th>Product ID</th>
+                <th>SKU Code</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Quantity on Hand</th>
+                <th>Reorder Quantity</th>
+                <th>Unit Price</th>
+                <th>Category</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>PROD001</td>
+                <td>Product A1</td>
+                <td>Product A1</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$10.00</td>
+                <td>Category A</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>PROD002</td>
+                <td>Product A2</td>
+                <td>Product A2</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$25.50</td>
+                <td>Category A</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>PROD003</td>
+                <td>Product A3</td>
+                <td>Product A3</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$15.00</td>
+                <td>Category A</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>PROD004</td>
+                <td>Product B1</td>
+                <td>Product B1</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber"> $20.00</td>
+                <td>Category B</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>PROD005</td>
+                <td>Product B2</td>
+                <td>Product B2</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$10.00</td>
+                <td>Category B</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>PROD006</td>
+                <td>Product B3</td>
+                <td>Product B3</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$100.00</td>
+                <td>Category B</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>PROD007</td>
+                <td>Product C1</td>
+                <td>Product C1</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$35.00</td>
+                <td>Category C</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>PROD008</td>
+                <td>Product C2</td>
+                <td>Product C2</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$20.05</td>
+                <td>Category C</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>PROD009</td>
+                <td>Product C3</td>
+                <td>Product C3</td>
+                <td class="cellnumber">10</td>
+                <td class="cellnumber">5</td>
+                <td class="cellnumber">$25.50</td>
+                <td>Category C</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <aside class="sidebar">
+        <h3>Advertisement</h3>
+        <img src="../images/300x300.png" class="advertisement" style="width:60%">
+        <p>Advertisement 1</p>
+        <img src="../images/300x300.png" class="advertisement" style="width:60%">
+        <p>Advertisement 2</p>
+        <img src="../images/300x300.png" class="advertisement" style="width:60%">
+        <p>Advertisement 3</p>
+    </aside>
+</body>
+
+<footer class="footer">
+    <h6>&copy; 2020 IS3106. All rights reserved.</h6>
+</footer>
+
+
+</html>
